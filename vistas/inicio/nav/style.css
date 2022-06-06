@@ -1,0 +1,44 @@
+
+
+#navbar{
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:100;
+  }
+  #navMain{
+    background:rgba(0,0,0,0.1)
+
+  }
+  #navMain a{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+  }
+  #Navbar #navSecondary a{
+    text-decoration:none;
+    color:white;
+  }
+  .inverted {
+     filter: invert(0%);
+  }
+  .inverted100 {
+     filter: invert(100%);
+  }
+
+
+  #carouselExampleCaptions{
+    height:100vh;
+  }
+  #carouselExampleCaptions .carousel-item{
+    height:100%;
+  }
+  #carouselExampleCaptions img{
+    height:100%;
+  }
+  .carousel-caption{
+    top:45%;
+  }
+  #Navbar *{
+    transition: ease 1s all;
+  }
